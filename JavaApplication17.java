@@ -4,9 +4,6 @@ package javaapplication17;
 import java.util.Scanner;
 
 
-
-
-
 public class JavaApplication17 {
     
     
