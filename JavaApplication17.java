@@ -6,10 +6,7 @@ import java.util.Scanner;
 
 
 
-/**
- *
- * @author yazid kareem
- */
+
 public class JavaApplication17 {
     
     
