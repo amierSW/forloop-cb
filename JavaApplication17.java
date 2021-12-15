@@ -1,33 +1,33 @@
 
 package javaapplication17;
 
-import java.util.Scanner;
-
-
+import java.util.ArrayList;
 public class JavaApplication17 {
     
     
     public static void main (String []args){
 
-    Scanner a = new Scanner(System.in);
-    
-     
-    System.out.println("ادخل  رقم التوقف"); 
-    int a2=a.nextInt();
-    
-    
-      
-        System.out.println("ادخل رقم البداية");
- for( int a1=a.nextInt() ;0<a1 && a1<=100; a1++ ){
-     if(a1>2&&a1<=98) {continue;}
-  System.out.println(a1);
-      
-      if (a1== a2) {
-      break;}
-   
-      
- }
+        
+        
+        
+    ArrayList<Integer> marks = new ArrayList();    
+ marks.add(1);
+ marks.add(2);
+ marks.add(3);
+ marks.add(4);
+ marks.set(1,20);//(20)تغيير ثاني قيمةب 
+ marks.remove(3);//حذف رابع قيمة
  
+                System.out.println(marks);
+                System.out.println("اول قيمة في الارري ليست: "+marks.get(0));
+                System.out.println("ثاني قيمة في الارري ليست: "+marks.get(1));
+                System.out.println("حجم الأرري ليست: "+marks.size()  );
+
+      
+        
+        
+        
+     
     }
 }   
         
